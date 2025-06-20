@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           details.participants.forEach((email) => {
             const li = document.createElement("li");
-            li.textContent = email;
+            li.textContent = email; 
             participantsList.appendChild(li);
           });
         }
